@@ -1,0 +1,11 @@
+name: Deployment Placeholder
+
+on:
+  workflow_dispatch:
+
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deployment note
+        run: echo "Deployment utama akan dikelola melalui Railway."
